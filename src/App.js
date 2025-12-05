@@ -40,7 +40,7 @@ function App() {
   return (
     <>
       <Router future={{ v7_startTransition: true, v7_relativeSplatPath: true }}>
-        <Navbar title="TextUtils" mode={mode} toggleMode={toggleMode} key={new Date()} />
+        <Navbar title="TextUtils" aboutText="About" mode={mode} toggleMode={toggleMode} key={new Date()} />
         <Alert alert={alert} />
         <div className="container my-3">
           <Routes>
